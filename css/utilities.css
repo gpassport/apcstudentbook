@@ -244,7 +244,7 @@ table {
   margin: 0;
   padding: 0;
   width: 100%;
-  table-layout: fixed;
+  table-layout:fixed;
 }
 
 table caption {
@@ -269,12 +269,15 @@ table td {
   padding: .625em;
   text-align: center;
   border: 1px solid black;
+  /* border:solid 1px; width:100px; */
+   word-wrap:break-word;
 }
 
 table th {
-  font-size: .85em;
+  font-size: .6em;
   letter-spacing: .1em;
   text-transform: uppercase;
+  
 }
 
 @media screen and (max-width: 600px) {
@@ -304,6 +307,7 @@ table th {
   }
   
   table td {
+    border: 1px solid;
     border-bottom: 1px solid #ddd;
     display: block;
     font-size: .8em;
